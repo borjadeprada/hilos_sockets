@@ -35,19 +35,19 @@ public class ChatbotServer {
 					
 					// En funcion de la opcion elegida, enviamos al cliente la respuesta correspondiente
 					if(clientNumber == 1) {
-						out.println("Sala 5:	16:00	|	19:00	|	22.00");
+						out.println("Sala 1:	16:00	|	19:00	|	22.00");
 					}else if(clientNumber == 2){
-						out.println("Sala 5:	16:00	|	19:00	|	22.00\nSala 9:	17:00");
+						out.println("Sala 2:	12:00	|	17.30	|	21.00");
 					}else if(clientNumber == 3){
-						out.println("Sala 5:	16:00	|	19:00	|	22.00\nSala 9:	17:00");
+						out.println("Sala 3:	13:30	|	16:15	|	20.30");
 					}else if(clientNumber == 4){
-						out.println("Sala 5:	16:00	|	19:00	|	22.00\nSala 9:	17:00");
+						out.println("Sala 4:	15:00	|	16:30	|	22.15");
 					}else if(clientNumber == 5){
-						out.println("Sala 5:	16:00	|	19:00	|	22.00\nSala 9:	17:00");
+						out.println("Sala 5:	16:00	|	19:15	|	21.30");
 					}else if(!isNumeric(inputString)){
 						out.println(inputString + " no es un numero.");
 					}else {
-						out.println("Por favor, introduzca un numero.");
+						out.println("Por favor, introduzca un numero entre 1 y 5.");
 					}
 				}
 		
@@ -74,3 +74,4 @@ public class ChatbotServer {
 	}
 
 }
+
